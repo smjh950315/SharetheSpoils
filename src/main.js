@@ -71,7 +71,7 @@ function render() {
 }
 
 function ledger(total, paid) {
-  return `<section class="hero"><div><p class="eyebrow">MABINOGI RAID LOOT</p><h1>羅神...真的好強</h1><p class="sub">輸入掉落、價格與得標者；每一筆的分攤金額會立即算好。</p></div><div class="metric"><span>本次戰利品</span><b>${fmt(total)} <small>Gold</small></b><i>${state.items.length} 項 · ${paid} 項已分</i></div></section>
+  return `<section class="hero"><div><p class="eyebrow">MABINOGI RAID LOOT</p><h1>神奇小迪...真的好強</h1><p class="sub">輸入掉落、價格與得標者；每一筆的分攤金額會立即算好。</p></div><div class="metric"><span>本次戰利品</span><b>${fmt(total)} <small>Gold</small></b><i>${state.items.length} 項 · ${paid} 項已分</i></div></section>
   <section class="panel">
     <div class="panel-head"><div><h2>分贓明細</h2><p>得標者以「+」分隔（如：莉+C+貓+布）；人名和所有明細都會保存在此瀏覽器。</p></div><button class="add" id="addRow">＋ 新增物品</button></div>
     <div class="table-wrap"><table><thead><tr><th>物品</th><th>時間</th><th>得標者</th><th>數量</th><th>單價</th><th>每人平分</th><th>已分</th><th></th></tr></thead><tbody>
